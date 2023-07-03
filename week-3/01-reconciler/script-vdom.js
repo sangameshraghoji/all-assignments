@@ -3,7 +3,7 @@ let vDOM = []; // Our initial vDOM is an empty array
 function createDomElements() {
   var parentElement = document.getElementById("mainArea");
 
-  var currentChildren = Array.from(parentElement.children);
+  var currentChildren = Array.from(parentElement.children);;
 
   let added = 0, deleted = 0, updated = 0;
   // Now, we'll compare our new vDOM to our actual DOM
